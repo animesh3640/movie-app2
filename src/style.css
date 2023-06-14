@@ -1,0 +1,36 @@
+*{
+    margin: 2px 2px;
+}
+.App{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    margin: 0px;
+    background-color: navy;
+}
+
+.Movies{
+    display:  flex;
+    width: 70%;
+    gap: 5px;
+    flex-wrap: wrap;
+    
+}
+.Movies >div > img{
+    width: 250px;
+    height: 250px;
+}
+.Movies >div{
+    border:  2px solid red;
+    text-align: center;
+    background-color: lightgray;
+}
+.movieDetails-containers{
+    width: 28%;
+    text-align: center;
+}
+
+.movieDetails{
+    border: 10px dotted red;
+}
